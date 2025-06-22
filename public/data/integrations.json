@@ -1,0 +1,20 @@
+{
+  "tag": "Integrations",
+  "title": "Seamless integration with favorite tools",
+  "description": "With ConnectMore, you can easily integrate with the essential tool that you already use, which eventually makes your email marketing more impactful. By using ConnectMore, you can sync your data with your customer relation management and can integrate your analytics and e-commerce platform.",
+  "points": [
+    {
+      "title": "CRM integration",
+      "description": "Sync your essential contacts with tools like HubSpot, Zoho, and Salesforce."
+    },
+    {
+      "title": "Analytics integration",
+      "description": "Combine ConnectMore analytics with platforms like Google Analytics."
+    },
+    {
+      "title": "Ecommerce integration",
+      "description": "Inform potential users about the company and products based on purchase behavior."
+    }
+  ],
+  "image": "/Group.png"
+}

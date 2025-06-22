@@ -1,0 +1,13 @@
+{
+  "title": "We cut prices, not features",
+  "subtitle": "We believe in delivering maximum value without compromising on quality.\nEnjoy all the powerful features you love, now at a reduced price.",
+  
+  
+  "pricing": {
+    "headline": "Pricing",
+    "description": "How many contacts do you have?",
+    "defaultContacts": 1,
+     
+    "pricePerContact": 0.5
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Contact Management",
+    "list": ["Bulk Import Contacts", "Segmentation and Tagging", "Contact List Organization", "Custom Fields for Contacts", "CRM Integration", "Contact Filtering and Search"]
+   
+  },
+  {
+    "title": "Email Builder",
+      "list": ["Drag-and-Drop Interface", "Pre-Designed Templates", "Customizable Templates", "Mobile-Responsive Design", "HTML Code Editor (for advanced users)", "Rich Text Formatting"]
+  },
+  {
+    "title": "Personalization",
+     "list": ["Merge Tags (e.g., First Name, Last Name)", "Dynamic Content Insertion", "Behavioral Targeting", "Personalized Subject Lines", "Custom Audience Segments", "Personalized Product Recommendations"]
+  },
+  {
+    "title": "Automation",
+     "list": ["Automation Workflows", "Event-Based Triggers", "Automated List Cleaning", "Birthday/Anniversary Emails", "Workflow Templates", "Conditional Logic for Workflows"]
+  },
+  {
+    "title": "Analytics & Reporting",
+     "list": ["Real-Time Campaign Analytics", "Real-Time Campaign Analytics", "Conversion Tracking", "Revenue Attribution", "Subscriber Growth Tracking", "Export Reports"]
+  },
+  {
+    "title": "Integrations",
+     "list": ["CRM Integrations", "eCommerce Integrations", "Social Media Integrations", "Analytics Integrations", "Webinar Integrations", "CMS Integrations"]
+  }
+ 
+]

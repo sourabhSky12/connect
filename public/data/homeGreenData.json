@@ -1,0 +1,34 @@
+{
+  "title": "Learn how companies are \n succeeding with \n ConnectMore.",
+  "cards": [
+    {
+      "problem": "Low engagement rates.",
+      "solution": "Personalize emails with ConnectMore’s automation and boost customer interaction."
+    },
+    {
+      "problem": "Managing emails took too much time.",
+      "solution": "Automate email tasks and focus on growing your business."
+    },
+    {
+      "problem": "Emails weren’t converting into sales.",
+      "solution": "Use ConnectMore’s segmentation tools to send better, targeted emails and grow your revenue."
+    }
+  ],
+  "stats": [
+    {
+      "icon": "+",
+      "number": 30,
+      "label": "+30% Better Engagement"
+    },
+    {
+      "icon": "+",
+      "number": 20,
+      "label": "+20h Saved Each Week"
+    },
+    {
+      "icon": "+",
+      "number": 50,
+      "label": "+50% More Sales"
+    }
+  ]
+}

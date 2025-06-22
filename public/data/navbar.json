@@ -1,0 +1,14 @@
+{
+  "logo": {
+    "text": "ConnectMore",
+    "url": "/"
+  },
+  "links": [
+    { "text": "Home", "url": "/" },
+    { "text": "Features", "url": "#features" },
+    { "text": "Pricing", "url": "#pricing" },
+    { "text": "About", "url": "#about" },
+    { "text": "Support", "url": "#support" },
+    { "text": "Blog", "url": "#blog" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "company": {
+    "name": "ConnectMore",
+    "description": "ConnectMore helps you turn emails into powerful marketing tools. Join thousands of businesses optimizing their campaigns with our intuitive, all-in-one platform.",
+    "developedBy": {
+      "text": "Designed & Developed by",
+      "link": {
+        "name": "TechNow",
+        "url": "#"
+      }
+    }
+  },
+  "sections": [
+    {
+      "title": "Navigation",
+      "links": ["Feature", "About", "Pricing", "Help & Support"]
+    },
+    {
+      "title": "Legal",
+      "links": ["Data privacy", "Imprint"]
+    }
+  ]
+}

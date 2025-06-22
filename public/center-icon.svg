@@ -1,0 +1,5 @@
+<!-- public/svg/center-icon.svg -->
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="40" fill="#F5FFF5"/>
+  <path d="M25 35L38 50L58 25" stroke="#00A64F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
