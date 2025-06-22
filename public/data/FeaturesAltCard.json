@@ -1,0 +1,46 @@
+[
+  {
+    "tag": "Contact management",
+    "title": "Handle your contacts smartly",
+    "description": "With ConnectMore, you can keep the contact list in a well organised manner by using powerful contact management tools. This will help you in importing the contact form several sources and segments in an effortless manner. This platform assures you that the messages and emails are reaching the potential audience. ",
+    "points": [
+      { "title": "Segmentations", "description": "we assure creating dynamic segments based on several aspects such as customer behaviour and other demographics that manages your campaign." },
+      { "title": "Organised contacts", "description": "We provide you a platform where you can effortlessly organize your contacts by using specific tags and filters." },
+      { "title": "Bulk importing", "description": "ConnectMore helps you in quickly uploading your file of essential contacts directly from the spreadsheet or other tools." }
+    ],
+    "image": "/features1.png"
+  },
+  {
+    "tag": "Email builder",
+    "title": "Design Emails in no time",
+    "description": "We provide you a platform where you can make innovative and creative emails without using any kind of professional skills. Strategically using the features of ConnectMore you can build highly relevant and responsive emails, by choosing the email form the wide range of professional templates. Besides this, we also allow you to generate your email from scratch by using our on creativity",
+    "points": [
+      { "title": "Template Library", "description": "We provide various templates built by professionals. These tamales are specifically designed for all types of sector and nature of the business." },
+      { "title": "Mobile Optimization", "description": " We also make sure that the email of your company looks professional, decent and innovative on any platform." },
+      { "title": "Drag-and-Drop Interface", "description": "With ConnetMore you can effortlessly add and arrange the elements in your Email like text, image, fonts and many more." }
+    ],
+    "image": "/features2.png"
+  },
+   {
+    "tag": "Contact management",
+    "title": "Strengthen your insights by using powerful analytics",
+    "description": "ConnectMore will help you in understanding how impactful insights helps you in making an impactful campaign. We strategically use various performance metrics such as click through rates to manage the insights of the email. By using these analytics to enhance the optimisation of your strategies, which can eventually lead to better results.",
+    "points": [
+      { "title": "Detailed reports", "description": "Connecting with ConnetMore can generate understandable reports and highlights the essential metrics for your company." },
+      { "title": "Real Time data", "description": "We monitor the overall performance of you campaign on a regular basis to assure better results" },
+      { "title": "A/B Testing insights", "description": "ConnectMore also help you with comparing the results of various emails to observe what works best for the company growth" }
+    ],
+    "image": "/features3.png"
+  },
+   {
+    "tag": "Personalisation",
+    "title": "We assure personalized emails",
+    "description": "Struggling with high client engagement and conversations? You need to deliver highly personalized content in your mail. By using the advanced personalized feature of ConnectMore, you can strategically manage your content on the basis of several aspects like client behaviour, preferences and demographics.",
+    "points": [
+      { "title": "Merge tags", "description": "ConnectMore helps you with including the personalised information in the email such as recipient’s name in an effortless manner." },
+      { "title": "Dynamics content", "description": "We consider various segments of target audience to manage the personalisation of your emails" },
+      { "title": "Behavioral targeting", "description": "We constantly observe the actions of the users such as past purchase, search history and buying behavior for sending the mails to the relevant audience." }
+    ],
+    "image": "/features4.png"
+  }
+]
