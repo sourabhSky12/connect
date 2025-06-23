@@ -26,9 +26,9 @@ const FeatureCardGrid = ({ dataPath, gridClassName, headerTitle }: FeatureCardGr
   }, [dataPath]);
 
   return (
-    <section className="bg-white px-4 md:mx-25 py-16">
+    <section className="bg-white px-4 md:mx-25 my-5">
       {headerTitle && (
-        <div className="text-center mb-12">
+        <div className="text-center ">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
             {headerTitle}
           </h2>

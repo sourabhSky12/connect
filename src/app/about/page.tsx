@@ -2,6 +2,7 @@
 
 import FeatureCardGrid from "@/component/molecules/FeatureCardGrid"
 import TeamAboutSec from "@/component/molecules/TeamAboutSec"
+import HeroDashboard from "@/component/organisms/HeroDashboard"
 import TopSectionPages from "@/component/organisms/TopSectionPages"
 import VisionMissionSection from "@/component/organisms/VisionMissionSection"
 import { NextPage } from "next"
@@ -18,6 +19,7 @@ return (
   />
   <TeamAboutSec dataPath="/data/aboutTeamSecData.json"/>
    <VisionMissionSection dataPath="/data/vision-mission.json"/>
+   <HeroDashboard/>
 </>
 )
 }

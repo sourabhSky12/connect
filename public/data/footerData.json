@@ -6,18 +6,44 @@
       "text": "Designed & Developed by",
       "link": {
         "name": "TechNow",
-        "url": "#"
+        "url": "/"
       }
     }
   },
   "sections": [
     {
       "title": "Navigation",
-      "links": ["Feature", "About", "Pricing", "Help & Support"]
+      "links": [
+        {
+          "name": "Features",
+          "url": "/features"
+        },
+        {
+          "name": "Pricing",
+          "url": "/pricing"
+        },
+        {
+          "name": "About",
+          "url": "/about"
+        },
+        {
+          "name": "Help & Support",
+          "url": "/support"
+        }
+      ]
     },
     {
       "title": "Legal",
-      "links": ["Data privacy", "Imprint"]
+      "links": [
+        {
+          "name": "Data privacy",
+          "url": "/terms"
+        },
+        {
+          "name": "Imprint",
+          "url": "/privacy"
+        }
+      ]
     }
   ]
 }

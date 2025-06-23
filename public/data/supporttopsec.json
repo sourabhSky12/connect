@@ -4,7 +4,9 @@
   "contact": {
     "phone": "+49 30 46069295",
     "email": "projects@tech-now.io",
-    "hours": "Our support team is here for you daily from 9:00 to 18:00."
+    "hours": "Our support team is here for you daily from 9:00 to 18:00.",
+    "emailIcon": "/message.svg",
+    "phoneIcon": "/phone.svg"
   }
  
 }

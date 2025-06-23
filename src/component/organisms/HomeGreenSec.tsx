@@ -39,7 +39,7 @@ const HomeGreenSec = ({ dataPath }: VisionMissionSectionProps) => {
   if (!data) return null;
 
   return (
-    <section className="relative bg-[#00391E] text-white py-16 px-4 lg:px-24 overflow-hidden">
+    <section className="relative bg-[#00391E] text-white py-16 px-4 lg:px-24 overflow-hidden ">
       {/* Decorative Background */}
       <div
         className="absolute inset-0 bg-[url('/bodyicon.png')] bg-repeat opacity-10"

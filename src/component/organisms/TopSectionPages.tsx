@@ -1,9 +1,11 @@
 'use client';
 import React, { useEffect, useState, ReactNode } from 'react';
-
+ import Image from 'next/image';
 type Contact = {
   phone?: string;
+  phoneIcon?: string; // now a URL
   email?: string;
+  emailIcon?: string; // now a URL
   hours?: string;
 };
 
@@ -77,22 +79,48 @@ function TopSectionPages({ jsonPath, customButton }: TopSectionProps) {
         {customButton && <div className="mt-6">{customButton}</div>}
 
         {/* Contact Section */}
-        {contact && (
-          <div className="flex flex-col md:flex-row justify-center gap-6 mt-6">
-            {contact.phone && (
-              <div className="flex items-center gap-3 px-6 py-3 border rounded-md shadow-sm cursor-pointer">
-                <span className="text-green-600 text-xl">📞</span>
-                <span className="text-base text-green-600">{contact.phone}</span>
-              </div>
-            )}
-            {contact.email && (
-              <div className="flex items-center gap-3 px-6 py-3 border rounded-md shadow-sm cursor-pointer">
-                <span className="text-green-600 text-xl">📧</span>
-                <span className="text-base text-green-600">{contact.email}</span>
-              </div>
-            )}
+    
+
+{contact && (
+  <div className="flex flex-col md:flex-row justify-center gap-6 mt-6">
+    {contact.phone && (
+      <div className="group flex items-center gap-3 px-6 py-3 border rounded-md shadow-sm cursor-pointer transition hover:bg-gray-50">
+        {contact.phoneIcon && (
+          <div className="p-1 rounded group-hover:bg-[#D6FFE7] transition">
+            <Image
+              src={contact.phoneIcon}
+              alt="Phone"
+              width={17}
+              height={18}
+              className="text-green-600"
+            />
           </div>
         )}
+        <span className="text-base text-green-600">{contact.phone}</span>
+      </div>
+    )}
+    {contact.email && (
+      <div className="group flex items-center gap-3 px-6 py-3 border rounded-md shadow-sm cursor-pointer transition hover:bg-gray-50">
+        {contact.emailIcon && (
+          <div className="p-1 rounded group-hover:bg-green-600 transition">
+            <Image
+              src={contact.emailIcon}
+              alt="Email"
+              width={17}
+              height={18}
+              className="text-green-600"
+            />
+          </div>
+        )}
+        <span className="text-base text-green-600">{contact.email}</span>
+      </div>
+    )}
+  </div>
+)}
+
+
+
+
         {contact?.hours && (
           <p className="text-center text-black mt-4">{contact.hours}</p>
         )}
