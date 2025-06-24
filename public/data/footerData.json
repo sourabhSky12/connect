@@ -37,11 +37,11 @@
       "links": [
         {
           "name": "Data privacy",
-          "url": "/terms"
+          "url": "/dataprivacy"
         },
         {
           "name": "Imprint",
-          "url": "/privacy"
+          "url": "/imprint"
         }
       ]
     }

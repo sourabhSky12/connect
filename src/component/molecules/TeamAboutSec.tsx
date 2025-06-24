@@ -36,7 +36,7 @@ const TeamAboutSec = ({ dataPath }: AboutSectionProps) => {
       <h2 className="text-[24px] font-semibold text-[#020318] mb-6">{data.title}</h2>
       <p className="text-[#020318] text-[14px] mb-6">{data.description}</p>
       <Link href={data.buttonLink}>
-        <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded">
+        <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded cursor-pointer">
           {data.buttonText}
         </button>
       </Link>

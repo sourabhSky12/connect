@@ -6,12 +6,15 @@
         "step": "Step 1",
         "title": "Import Your Contacts",
         "description": "Easily import your contact list from other tools or spreadsheets. Launching campaigns is hassle-free with our email marketing software in India.",
-        "buttonText": "Check Out Features"
+        "buttonText": "Check Out Features",
+        "url": "/features"
+
       },
       "right": {
         "type": "image",
         "src": "/step1.png",
         "alt": "CSV Upload Example"
+        
       }
     },
     {
@@ -25,7 +28,8 @@
         "step": "Step 2",
         "title": "Design Your Emails",
         "description": "Create beautiful emails with our easy-to-use editor. Start from scratch or use templates. Make eye-catching email designs that will wow your readers.",
-        "buttonText": "Check Out Features"
+        "buttonText": "Check Out Features",
+        "url": "/features"
       }
     },
     {
@@ -34,7 +38,8 @@
         "step": "Step 3",
         "title": "Automate and Personalize",
         "description": "Use our AI email marketing tool in India to save time. Schedule and personalise your messages so they are delivered to the appropriate recipients at the appropriate time.",
-        "buttonText": "Check Out Features"
+        "buttonText": "Check Out Features",
+        "url": "/features"
       },
       "right": {
         "type": "image",
@@ -53,7 +58,8 @@
         "step": "Step 4",
         "title": "Track Your Results",
         "description": "To see how your emails are performing, get real-time reports. To make better selections for your upcoming campaigns, track important metrics like clicks and openings.",
-        "buttonText": "Check Out Features"
+        "buttonText": "Check Out Features",
+        "url": "/features"
       }
     }
   ]

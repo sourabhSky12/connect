@@ -11,8 +11,15 @@ interface Props {
 const StickyImageScrollOver = ({ imageUrl, children }: Props) => {
   return (
     <div className="relative bg-white">
+     
+         {/*background animation  */}
+       <div
+              className="absolute inset-0 bg-[url('/bodyicon.png')] bg-repeat opacity-10"
+              style={{ backgroundSize: '30px 30px' }}
+            />   
       {/* Sticky Center Image */}
       <div className="sticky top-0 z-0 flex justify-center">
+        
         <div className="w-[250px] sm:w-[350px] md:w-[600px] lg:w-[800px]">
           <Image
             src={imageUrl}

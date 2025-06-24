@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { usePathname } from "next/navigation"; // ✅ NEW
 import DynamicModalForm from "./DynamicModalForm";
 
 // Inline Types
@@ -24,7 +25,7 @@ interface NavbarData {
 }
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState("/");
+  const pathname = usePathname(); // ✅ Replaces activeLink state
   const [navbarData, setNavbarData] = useState<NavbarData | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -38,15 +39,14 @@ const Navbar = () => {
   if (!navbarData) return null;
 
   return (
-    <nav className="w-full bg-white  sticky top-0 z-50">
-      <div className="m-auto max-w-screen-xl px-4  py-2">
+    <nav className="w-full bg-white sticky top-0 z-50">
+      <div className="m-auto max-w-screen-xl px-4 py-2">
         {/* Desktop Layout */}
         <div className="hidden md:flex items-center justify-between -mx-5 py-2">
           {/* Left: Logo */}
           <Link
             href={navbarData.logo.url}
             className="flex items-center text-xl font-bold text-black"
-            onClick={() => setActiveLink("/")}
           >
             <Image src="/Logo.svg" alt="LOGO" width={155} height={30} />
           </Link>
@@ -57,9 +57,8 @@ const Navbar = () => {
               <Link
                 key={link.text}
                 href={link.url}
-                onClick={() => setActiveLink(link.url)}
-                className={`text-[17px] text-black hover:text-green-600  font-medium border-b-2 ${
-                  activeLink === link.url
+                className={`text-[17px] text-black hover:text-green-600 font-medium border-b-2 ${
+                  pathname === link.url
                     ? "border-green-600"
                     : "border-transparent"
                 }`}
@@ -70,8 +69,10 @@ const Navbar = () => {
           </div>
 
           {/* Right: Buttons */}
-          <div className="min-w-[140px] flex justify-end space-x-6 ">
-            <button className="text-black text-[17px] font-medium">Login</button>
+          <div className="min-w-[140px] flex justify-end space-x-6">
+            <Link href="/login" className="text-black text-[17px] font-medium pt-3">
+                Login
+            </Link>
             <DynamicModalForm />
           </div>
         </div>
@@ -80,7 +81,6 @@ const Navbar = () => {
         <div className="md:hidden flex items-center justify-between py-4">
           <Link
             href={navbarData.logo.url}
-            onClick={() => setActiveLink("/")}
             className="flex items-center text-xl font-bold text-black"
           >
             <Image src="/Logo.svg" alt="LOGO" width={155} height={30} />
@@ -110,12 +110,9 @@ const Navbar = () => {
                 <Link
                   key={link.text}
                   href={link.url}
-                  onClick={() => {
-                    setActiveLink(link.url);
-                    setIsMobileMenuOpen(false);
-                  }}
+                  onClick={() => setIsMobileMenuOpen(false)}
                   className={`text-lg font-medium ${
-                    activeLink === link.url ? "text-green-600" : "text-black"
+                    pathname === link.url ? "text-green-600" : "text-black"
                   }`}
                 >
                   {link.text}

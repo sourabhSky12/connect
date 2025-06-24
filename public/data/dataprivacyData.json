@@ -1,0 +1,97 @@
+{
+  "title": "Data privacy",
+  "sections": [
+    {
+      "heading": " PRIVACY POLICY",
+      "paragraphs": ["The data protection and privacy of the users („data subject“ iSd GDPR) of our websites are of particular concern to us („controller“ iSd GPDR). We therefore undertake to protect your personal data and to collect, process and use it only in accordance with the General Data Protection Regulation (GDPR) and national data protection regulations.",
+                "The following privacy policy explains which of your personal data is collected on our websites and how this data is used. Our data protection declaration is regularly updated in accordance with legal and technical requirements. Please therefore refer to the latest version of our data protection declaration.",
+                "The following data protection provisions apply exclusively to the Internet pages of the company listed on the website: https://tech-now.io."
+    ]
+    },
+    {
+        "heading": " 1. NAME AND ADDRESS OF THE PERSON RESPONSIBLE",
+        "paragraphs": ["The responsible person within the meaning of the General Data Protection Regulation and other national data protection laws as well as other data protection regulations is:",
+                        "Dariush Franczak",
+                        "Immanuelkirchstraße 34",
+                        "10405 berlin",
+                        "+49 171 5422724",
+                        "dariush@tech-now.io",
+                        "If you have any questions about this privacy policy or wish to exercise your rights, you can contact our data protection officer at privacy@tech-now.io anytime."
+    ]
+    },
+    {
+       "heading": "WHAT DO WE PROCESS YOUR DATA FOR AND ON WHAT LEGAL BASIS?",
+       "subsections":[
+       {
+          "heading": "2.1 Server log files ",
+          "paragraphs": ["In the case of mere informational use of the website, i.e. if you do not otherwise transmit information to us, we collect the (possibly personal) data that your browser transmits to our server. Accordingly, if you wish to view our website, we collect the following data:"],
+          "list": ["IP address", "Date and time of the request", "Time zone difference from Greenwich Mean Time (GMT).", "Content of the request (specific page)", "Access status/HTTP status code",
+          "Amount of data transferred in each case", "Website from which the request came", "Browser", "The operating system", "Language and version of the browser software."]
+          
+        },
+        {
+            "paragraphs": ["This data is stored in server log files for a few days for security reasons and then deleted. If data must be retained for evidentiary reasons, it will not be deleted until the incident has been finally resolved.",
+        "The legal basis for the described data processing is Art. 6 para. 1 p. 1 lit. f DSGVO. We have a legitimate interest in processing the server log files to ensure the security of the website and to clarify cases of abuse."]
+        },
+        {
+            "heading": "2.2 Cookies",
+            "paragraphs": ["In addition to the previously mentioned data, cookies are stored on your computer when you use our website. Cookies are small text files that are stored on your hard drive associated with the browser you are using and through which the entity that sets the cookie receives certain information. ",
+        "Our website uses so-called session cookies. These store a so-called session ID, with which various requests of your browser can be assigned to the common session. This allows your computer to be recognized when you return to our website. The session cookies are deleted when you log out or close the browser. You can configure your browser setting according to your preferences and, for example, refuse to accept all cookies. We would like to point out that in this case you may not be able to use all functions of this website.", 
+    "The legal basis for the described data processing is Art. 6 para. 1 p. 1 lit. f DSGVO. We have a legitimate interest in storing the aforementioned cookies for the technically error-free and user-friendly design of the services. Some of the services listed below also use their own (third-party) cookies. The legal basis for these cookies follows in each case the legal basis for the data processing described there."]
+        },
+        {
+            "heading": "2.3 Contact via e-mail or contact form and applications",
+            "paragraphs": ["When you contact us by e-mail or contact form, the data you provide (your e-mail address, your name and telephone number, if applicable, the content of your message) will be stored by us in order to answer your questions. We delete the data accruing in this context after the storage is no longer necessary or restrict the processing if there are legal retention obligations.",
+        "The legal basis for this data processing is Art. 6 para. 1 p. 1 lit. b DSGVO, insofar as it concerns the initiation of a contractual relationship, and our legitimate interest in answering your inquiry according to Art. 6 para. 1 p. 1 lit. f DSGVO, insofar as it concerns other inquiries.",
+    "When contacting us by e-mail and/or contact form, your data will be transmitted to servers in the EU. For the USA, there is no general adequacy decision of the European Commission certifying an adequate level of data protection in the USA. By transferring your personal data, there is therefore a risk, for example, that U.S. authorities will access it and process it for their own purposes. The appropriate safeguards for the transfer of data to the USA are achieved by concluding so-called EU standard contractual clauses pursuant to Art. 46 (2) lit. c DSGVO, each of which has been supplemented by additional measures."]
+        },
+        {
+            "heading": "2.4 Embedded videos (YouTube, Vimeo)",
+            "paragraphs": ["We use videos on our website. These videos are not stored on our own servers, but are uploaded to third-party providers and only embedded on our website. This embedding of the videos results in calls to the servers of these third-party providers. Specifically, these are YouTube LLC, 901 Cherry Avenue, 94066 San Bruno, CA, USA and Vimeo Inc, 555 West 18th Street, New York 10011, USA (hereinafter „YouTube“ and „Vimeo“ or together „video providers“). We use the video providers in an extended data protection mode, which means that a connection between your browser and the video provider is only established when you start the video by clicking on the corresponding button.",
+        "Data processing by us does not take place. The responsible party for data processing is the respective video provider. Further information on this processing of your data by YouTube can be found at https://www.youtube.com/t/privacy_at_youtube and by Vimeo at https://vimeo.com/privacy."]
+        },
+        {
+            "heading": "2.5 Cookie Banner",
+            "paragraphs": ["To obtain your consent for cookies and similar technologies, we use the consent management tool from [PROVIDER, IF EXTERNAL] („Cookie Banner“). The Cookie Banner identifies which cookies are used by our website and whether you have given or revoked your consent to their use. This allows us to prevent cookies and similar technologies from being used on you if you have not given consent. The cookie set by the cookie banner that stores the setting of your preferences has a lifetime of one year.",
+        "The legal basis for this data processing is Art. 6 (1) p. 1 lit. f DSGVO, as we have a legitimate interest in being able to comply with the legal requirements of the DSGVO and the ePrivacy Directive through technical measures."]
+        },
+        {
+            "heading": "2.6 LinkedIn Insight Tag",
+            "paragraphs": ["We use LinkedIn Insight Tag from LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland (hereinafter „LinkedIn Tag“) to enable detailed campaign reporting and to gain information about visitors to our website in order to track conversions and/or retarget our website visitors. ",
+        "This LinkedIn Tag collects the following data: page views on our website, including URL, referrer URL, IP address, device and browser properties (user agent), and timestamp. IP addresses are shortened or (if used to reach members across devices) hashed. Members‘ direct identifiers are removed within seven days to pseudonymize the data. This remaining pseudonymized data is then deleted within 90 days. This data is encrypted, anonymized within seven days, and the anonymized data is deleted within 90 days. ",
+    "The data is also transmitted by LinkedIn Tag to countries outside the European Union and the European Economic Area (so-called third countries). For some of these third countries, in particular the United States of America (hereinafter „USA“), no adequate level of data protection has been determined by the European Commission. These third countries therefore do not offer data protection law that is comparable to that of the European Union. The appropriate guarantees for the transfer of data to the third countries are achieved by concluding so-called EU standard contractual clauses pursuant to Art. 46 (2) lit. c DSGVO, each of which has been supplemented by additional measures.",
+"LinkedIn Tag does not share any personal data with us, but only provides reports and notifications (in which you are not identified) about website audience and ad performance. Thus, we do not have access to the above data from you.",
+"For more information on LinkedIn Tag privacy, please refer to the LinkedIn privacy notices at https://www.linkedin.com/legal/privacy-policy.",
+ "The legal basis for this data processing is your consent in accordance with Art. 6 Para. 1 lit. a DSGVO."]
+        }
+       ]
+
+    },
+    {
+        "heading": "3. Who receives your data?",
+        "paragraphs": ["Within our company, your personal data is only accessed by those departments that absolutely need it to fulfill the above-mentioned purposes. The aforementioned data may also be processed by order processors who operate or maintain our website and systems. In addition, the data will be transmitted to the service providers expressly mentioned in section 2 with whom an agreement on commissioned processing has been concluded, insofar as they act as commissioned processors for us."]
+    },
+    {
+        "heading": "4. What rights do you have?",
+        "list": ["Right of access. You have the right to access the personal information we hold about you to review it and understand how we use your information.",
+    "Right to rectification, erasure and restriction. You have the right, in certain circumstances, to request that we correct, restrict or delete your personal data.",
+"Right to data portability. You have the right to receive your personal data from us in a structured, common and machine-readable format and to transfer it directly from us to third parties, to the extent technically feasible. ",
+"Right of withdrawal. You have the right to revoke any consent you may have given. Please note that this revocation of consent does not affect the permissibility of data processing until your revocation. You can revoke consent that you gave us when you first visited our website yourself at any time using the following link: ",
+"Right to object. You have the right to object at any time, on grounds relating to your particular situation, to the processing of personal data relating to you that is carried out on the basis of Article 6(1)(f) DSGVO. We will then no longer process your personal data unless we can demonstrate compelling legitimate grounds for the processing.",
+"Right to complain. If you believe that our data processing violates European data protection law, you can file a complaint with a supervisory authority. For example, the supervisory authority of the federal state in which you reside is responsible for this. A list of all state data protection officers and their contact details can be found at the following link: https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html. You can also contact the Bavarian State Office for Data Protection Supervision, which is responsible for us."]
+    },
+    {
+        "heading": "5. When will my personal data be deleted?",
+        "paragraphs": ["As far as possible, we have informed you of the specific storage period or the time of deletion under section 2. Otherwise, the storage period is determined by us by the following criteria: We process and store your personal data for as long as is necessary for the purposes for which it was collected. If the processing of your personal data is no longer necessary for us, in particular because contractual obligations or our legitimate interests have been fulfilled, it will be deleted by us, unless its further processing or archiving is required for legal reasons. These legal reasons include, for example, retention obligations under commercial and tax law (from the German Commercial Code and the German Fiscal Code). The periods specified there for the retention of data are generally two to ten years.‍"
+    ]
+    },
+    {
+        "heading": "6. Is there an obligation to provide personal data?",
+        "paragraphs": ["You are under no legal or contractual obligation to provide us with personal data. However, without this data we are in some cases not able to offer all functionalities of the website."]
+    },
+    {
+        "heading": "7. Does automated decision-making or profiling take place?",
+        "paragraphs": ["No automated decision-making or other profiling measures are carried out by us, unless expressly indicated in section 2."]
+    }
+  ]
+}

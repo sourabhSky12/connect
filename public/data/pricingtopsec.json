@@ -8,6 +8,6 @@
     "description": "How many contacts do you have?",
     "defaultContacts": 1,
      
-    "pricePerContact": 0.5
+    "pricePerContact": 1
   }
 }

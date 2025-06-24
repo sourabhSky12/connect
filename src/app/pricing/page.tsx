@@ -4,13 +4,17 @@ import FeatureCardGrid from "@/component/molecules/FeatureCardGrid"
 import HeroDashboard from "@/component/organisms/HeroDashboard"
 import TopSectionPages from "@/component/organisms/TopSectionPages"
 import { NextPage } from "next"
-
+import DynamicModalForm from "@/component/organisms/DynamicModalForm"
 
 
 const index : NextPage  = () => {
 return (
 <>
-<TopSectionPages jsonPath="/data/pricingtopsec.json"/>
+<TopSectionPages jsonPath="/data/pricingtopsec.json"
+  customButton={<DynamicModalForm />
+
+}   
+/>
 <FeatureCardGrid
  dataPath="/data/pricingCardData.json"
  headerTitle="Included Features"

@@ -2,13 +2,14 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-
+import Link from 'next/link';
 interface StepItem {
   type: 'step';
   step: string;
   title: string;
   description: string;
   buttonText: string;
+  url: string; 
 }
 
 interface ImageItem {
@@ -99,9 +100,12 @@ const ImportSection = () => {
                   </span>
                   <h2 className="text-2xl font-bold mb-4">{(row.left as StepItem).title}</h2>
                   <p className="text-gray-700 mb-4">{(row.left as StepItem).description}</p>
-                  <button className="bg-green-700 text-white px-5 py-2 rounded hover:bg-green-800 transition">
-                    {(row.left as StepItem).buttonText}
-                  </button>
+                 <Link
+  href={(row.left as StepItem).url}
+  className="inline-block bg-green-700 text-white px-5 py-2 rounded cursor-pointer hover:bg-green-800 transition"
+>
+  {(row.left as StepItem).buttonText}
+</Link>
                 </div>
               ) : (
                 <Image
@@ -126,9 +130,12 @@ const ImportSection = () => {
                   </span>
                   <h2 className="text-2xl font-bold mb-4">{(row.right as StepItem).title}</h2>
                   <p className="text-gray-700 mb-4">{(row.right as StepItem).description}</p>
-                  <button className="bg-green-700 text-white px-5 py-2 rounded hover:bg-green-800 transition">
-                    {(row.right as StepItem).buttonText}
-                  </button>
+                <Link
+  href={(row.right as StepItem).url}
+  className="inline-block bg-green-700 text-white px-5 py-2 rounded cursor-pointer hover:bg-green-800 transition"
+>
+  {(row.right as StepItem).buttonText}
+</Link>
                 </div>
               ) : (
                 <Image
